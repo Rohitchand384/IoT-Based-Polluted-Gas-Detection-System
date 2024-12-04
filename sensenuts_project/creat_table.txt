@@ -1,0 +1,10 @@
+//paste the following code to "SQL" and press "go" to insert table.
+
+CREATE TABLE dht11_table (
+    ID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    Sensor VARCHAR(30) NOT NULL,
+    Location VARCHAR(30) NOT NULL,
+    Temperature VARCHAR(10),
+    Humidity VARCHAR(10),
+    Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)

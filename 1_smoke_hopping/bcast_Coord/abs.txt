@@ -1,0 +1,4 @@
+for d in "../../../Lib"; do (cd $d; make  all ); done
+make[1]: Entering directory `/c/sensenuts/Lib'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/c/sensenuts/Lib'

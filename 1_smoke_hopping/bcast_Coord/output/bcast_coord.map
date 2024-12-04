@@ -1,0 +1,1122 @@
+Archive member included because of file (symbol)
+
+c:/sensenuts/Lib/sensenuts\libSense_JN516x.a(AppQueueApi.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/adc.o (symbol from plugin) (vAppQApiPostCritInt)
+c:/sensenuts/Lib/sensenuts\libSense_JN516x.a(bigbang.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/main.o (symbol from plugin) (bigBang)
+c:/sensenuts/Lib/sensenuts\libSense_JN516x.a(clock.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_aodv.o (symbol from plugin) (getCurrentTime)
+c:/sensenuts/Lib/sensenuts\libSense_JN516x.a(scheduler.o)
+                              bigbang.o (symbol from plugin) (startScheduler)
+c:/sensenuts/Lib/sensenuts\libSense_JN516x.a(task.o)
+                              clock.o (symbol from plugin) (getPTask)
+c:/sensenuts/Lib/Components/Library\libAppApi_JN516x.a(AppApi.o)
+                              (pvAppApiDefGetMacHandle)
+c:/sensenuts/Lib/Components/Library\libAppApi_JN516x.a(AppApiSleep.o)
+                              (vAppApiDefSaveMacSettings)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_main.o)
+                              AppApi.o (symbol from plugin) (MAC_pvCtor)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_mcps.o)
+                              AppApi.o (symbol from plugin) (MAC_vHandleMcpsReqRsp)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_mlme.o)
+                              AppApi.o (symbol from plugin) (MAC_vHandleMlmeReqRsp)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_pib.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/coordinator.o (symbol from plugin) (MAC_psPibGetHandle)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_pib_mlme.o)
+                              mac_main.o (symbol from plugin) (mac_vPibSetDefaults)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_pmic.o)
+                              mac_main.o (symbol from plugin) (vPMICreset)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_ind.o)
+                              AppApi.o (symbol from plugin) (MAC_vRegisterMlmeDcfmIndCallbacks)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_scan.o)
+                              mac_main.o (symbol from plugin) (mac_eScanInit)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_lp.o)
+                              mac_pmic.o (symbol from plugin) (g_sLP)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(MCPS.o)
+                              mac_mcps.o (symbol from plugin) (vTAM_MCPSdataRequest)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(phy_pib.o)
+                              AppApi.o (symbol from plugin) (phy_ePibGet)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM.o)
+                              MCPS.o (symbol from plugin) (bTAMinPAN)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMCO.o)
+                              TAM.o (symbol from plugin) (vTAMCOsetCoordinator)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMDE.o)
+                              TAM.o (symbol from plugin) (vTAMDEdetermineNullState)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM_MEM.o)
+                              TAM.o (symbol from plugin) (vMEMreset)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM_MLME.o)
+                              mac_scan.o (symbol from plugin) (vMLMEbeaconNotify)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM_TAH.o)
+                              TAMCO.o (symbol from plugin) (vTAHsetCutOff)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM_TAI.o)
+                              TAM.o (symbol from plugin) (vTAIsetCapTime)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM_TAT.o)
+                              TAMDE.o (symbol from plugin) (vTATstartReceiveAt)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMcommon.o)
+                              mac_scan.o (symbol from plugin) (bTACassessBeaconForPayload)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMevent.o)
+                              mac_lp.o (symbol from plugin) (vTAMinsertEvent)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMqueue.o)
+                              TAMcommon.o (symbol from plugin) (vTAQaddToFifo)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMrxEnable.o)
+                              TAMevent.o (symbol from plugin) (vTAMRXEint2Fired)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMsecurity.o)
+                              TAMcommon.o (symbol from plugin) (vTSCgetIncomingInfo)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMsideways.o)
+                              mac_pmic.o (symbol from plugin) (eTAStransmitRequest)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAMtime.o)
+                              TAM.o (symbol from plugin) (vTTIBLETimerExpired)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(TAM_AES.o)
+                              TAMsecurity.o (symbol from plugin) (u8TAM_AES_WriteAuxilliarySecurityHeaderIntoBuffer)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(Endian.o)
+                              TAM_AES.o (symbol from plugin) (vFromU16ToLe)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_acl.o)
+                              TAMsecurity.o (symbol from plugin) (MAC_u8AclFindInfo)
+c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a(mac_misc.o)
+                              mac_mlme.o (symbol from plugin) (vMAC_MISCpollRequest)
+c:/sensenuts/Lib/Components/Library\libTimerServer_JN516x.a(tsv_main.o)
+                              AppApiSleep.o (symbol from plugin) (s_sTimerList)
+c:/sensenuts/Lib/Components/Library\libXcv_JN516x.a(xcv_main.o)
+                              AppApi.o (symbol from plugin) (XCV_vCtor)
+c:/sensenuts/Lib/Components/Library\libXcv_JN516x.a(xcv_access.o)
+                              mac_main.o (symbol from plugin) (XCV_vDevWriteIER)
+c:/sensenuts/Lib/Components/Library\libXcv_JN516x.a(xcv_isr.o)
+                              AppApi.o (symbol from plugin) (vXCV_IntHandlerPhy)
+c:/sensenuts/Lib/Components/Library\libAes_JN516x.a(AES_CCM_Star.o)
+                              TAM_AES.o (symbol from plugin) (vACI_OptimisedCcmStar)
+c:/sensenuts/Lib/Components/Library\libAes_JN516x.a(AEScoprocessorAPI.o)
+                              AES_CCM_Star.o (symbol from plugin) (vACI_CmdWaitBusy)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Analogue.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/adc.o (symbol from plugin) (bAHI_APRegulatorEnabled)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Dio.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/dio.o (symbol from plugin) (vAHI_DioSetDirection)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Reset.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_lbr.o (symbol from plugin) (vAHI_SwReset)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Spi.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/spi.o (symbol from plugin) (vAHI_SpiConfigure)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_System.o)
+                              AppApiSleep.o (symbol from plugin) (u8AHI_PowerStatus)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Timer.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/dio.o (symbol from plugin) (vAHI_TimerEnable)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_TimerInt.o)
+                              AHI_System.o (symbol from plugin) (vAHI_Timer0RegisterCallback)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Uart.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uart.o (symbol from plugin) (vAHI_UartSetClockDivisor)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_WakeTimer.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/sleep.o (symbol from plugin) (vAHI_WakeTimerEnable)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Flash.o)
+                              AHI_System.o (symbol from plugin) (vAHI_FlashAndEEPROMControllerIntHandler)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Infrared.o)
+                              AHI_TimerInt.o (symbol from plugin) (vAHI_IntHandlerInfrared)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_DO.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/dio.o (symbol from plugin) (vAHI_DoSetDataOut)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(InternalFlashApi.o)
+                              AHI_Flash.o (symbol from plugin) (bFlashErase)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(EEP_EEPROM.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/EEPROM.o (symbol from plugin) (u16AHI_InitialiseEEP)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Si.o)
+                              c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/i2c.o (symbol from plugin) (vAHI_SiMasterConfigure)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_TickTimer.o)
+                              clock.o (symbol from plugin) (vAHI_TickTimerInit)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+                              bigbang.o (symbol from plugin) (vAHI_InterruptSetPriority)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Init.o)
+                              bigbang.o (symbol from plugin) (u32AHI_Init)
+c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_SpiSlave.o)
+                              AHI_Init.o (symbol from plugin) (vAHI_IntHandlerSpiSlave)
+c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroInt_ba.o)
+                              AppApi.o (symbol from plugin) (vMicroIntEnableOnly)
+c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                              AHI_Reset.o (symbol from plugin) (vMicroSyscall)
+c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(Heap.o)
+                              (u32HeapStart)
+c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                              (_exception_external_interrupt)
+c:/sensenuts/Lib/Components/Library\libAppApi_JN516x.a(AppHousekeeping.o)
+                              mac_scan.o (symbol from plugin) (sAppHousekeeping)
+c:/sensenuts/Lib/Components/Library\libAes_JN516x.a(AEScoprocessorAPIinterrupts.o)
+                              AHI_Init.o (symbol from plugin) (vACI_IntHandlerAes)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o (memcmp)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o (memcpy)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o (memset)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o (__udivsi3)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o (__fixunssfsi)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o (__addsf3)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o (__divsf3)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o (__gesf2)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o (__mulsf3)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o (__subsf3)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+                              c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+                              C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o (__floatunsisf)
+
+Allocating common symbols
+Common symbol       size              file
+
+N                   0x4               c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/sleep.o (symbol from plugin)
+prMAC_TofMlmeReqHandler
+                    0x4               mac_mlme.o (symbol from plugin)
+apvMlmeIndBufferData
+                    0x54              AppQueueApi.o (symbol from plugin)
+asMcpsIndBuffer     0xd20             AppQueueApi.o (symbol from plugin)
+nwPrmTblSize        0x1               c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/nw_param.o (symbol from plugin)
+tx0FIFO             0x400             c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uart.o (symbol from plugin)
+g_tSpiConfiguration
+                    0x4               AHI_Flash.o (symbol from plugin)
+u8TAM_TxStatusOverride
+                    0x1               TAMevent.o (symbol from plugin)
+prMAC_TofRxHandler  0x4               TAMcommon.o (symbol from plugin)
+apvMlmeIndData      0x54              AppQueueApi.o (symbol from plugin)
+nwParamTable        0x4b0             c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/nw_param.o (symbol from plugin)
+apvTaskIndData      0x54              AppQueueApi.o (symbol from plugin)
+asTaskIndBuffer     0xf0              AppQueueApi.o (symbol from plugin)
+apvTaskIndBufferData
+                    0x54              AppQueueApi.o (symbol from plugin)
+aodvInfo            0x4c0             c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing.o (symbol from plugin)
+apvMcpsIndData      0x54              AppQueueApi.o (symbol from plugin)
+apvMcpsIndBufferData
+                    0x54              AppQueueApi.o (symbol from plugin)
+rx0FIFO             0x400             c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uart.o (symbol from plugin)
+asCritIndBuffer     0x14              AppQueueApi.o (symbol from plugin)
+bAHI_ExtendedTemperatureOperation
+                    0x1               AHI_System.o (symbol from plugin)
+bMAC_DiscardUnsuccessfulAssocResponses
+                    0x1               mac_pmic.o (symbol from plugin)
+u8Msq               0x1               TAM_TAT.o (symbol from plugin)
+g_bLegacyHwBugEmulation
+                    0x1               AES_CCM_Star.o (symbol from plugin)
+apvCritIndBufferData
+                    0x18              AppQueueApi.o (symbol from plugin)
+apvCritIndData      0x18              AppQueueApi.o (symbol from plugin)
+asMlmeIndBuffer     0x1130            AppQueueApi.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/Accelerometer.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/CO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/CO2.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/EEPROM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/Energy_Meter.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/NO2.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/PMSensor.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/RGBsensor.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/SO2.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/adc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/cameraInterface.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/coordinator.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/dio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ec.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ethDhcp.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ethPacketAndTables.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ethernetControl.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/flash.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/genMac.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/gps.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/gsmControlsms.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/hextodec.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/humidSensor.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/i2c.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/lightSensor.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/mac.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/mqtt.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/node.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/nw_param.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ota.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/pcInterface.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ph.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/phy.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_aodv.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_aodv_Tables.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_bi_mbr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_lbr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_mbr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/sleep.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/smoke.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/soil.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/spi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/tempPressure.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/tmpSensor.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uartSerial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ultrasonic.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/util.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/wifiControl.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/bcast_coord.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppQueueApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 bigbang.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 clock.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 scheduler.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 task.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppApiSleep.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_mcps.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_mlme.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pib.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pib_mlme.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pmic.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_ind.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_scan.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_lp.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 MCPS.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 phy_pib.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMCO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMDE.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_MEM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_MLME.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAH.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAI.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAT.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMcommon.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMevent.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMqueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMrxEnable.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMsecurity.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMsideways.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMtime.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_AES.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Endian.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_acl.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_misc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tsv_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_access.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_isr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AES_CCM_Star.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorAPI.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Analogue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Dio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Reset.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Spi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_System.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Timer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_TimerInt.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_WakeTimer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Flash.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Infrared.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_DO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 InternalFlashApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 EEP_EEPROM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Si.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_TickTimer.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+ .text          0x0000000000000000        0x0 AHI_Init.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_SpiSlave.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 MicroInt_ba.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .text          0x0000000000000000        0x0 Heap.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .data          0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .bss           0x0000000000000000        0x0 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .text          0x0000000000000000        0x0 AppHousekeeping.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorAPIinterrupts.o (symbol from plugin)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x0000000000080000 0x0000000000040000
+ram              0x000000000400004c 0x0000000000007fb4
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/Accelerometer.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans5.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans6.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans7.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans8.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans10.ltrans.o
+LOAD c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a
+LOAD c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/CO.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/CO2.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/EEPROM.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/Energy_Meter.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/NO2.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/PMSensor.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/RGBsensor.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/SO2.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/adc.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/cameraInterface.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/coordinator.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/dio.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ec.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ethDhcp.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ethPacketAndTables.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ethernetControl.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/flash.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/genMac.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/gps.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/gsmControlsms.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/hextodec.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/humidSensor.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/i2c.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/lightSensor.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/mac.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/mqtt.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/node.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/nw_param.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ota.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/pcInterface.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ph.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/phy.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_aodv.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_aodv_Tables.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_bi_mbr.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_lbr.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/routing_mbr.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/sleep.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/smoke.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/soil.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/spi.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/tempPressure.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/tmpSensor.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uart.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/uartSerial.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/ultrasonic.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/util.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/wifiControl.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/bcast_coord.o
+LOAD c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/obj/main.o
+START GROUP
+LOAD c:/sensenuts/Lib/sensenuts\libSense_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libAppApi_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libMAC_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libTimerServer_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libTOF_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libXcv_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libAes_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a
+LOAD c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a
+LOAD c:/sensenuts/Lib/Platform/DK4/Library\libBoardLib_JN516x.a
+END GROUP
+LOAD c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a
+LOAD c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+                0x0000000000000800                _stack_size = 0x800
+                0x0000000000080038                _exception_vsr_table = 0x80038
+                0x0000000004000000                pSPIflashFncTable = 0x4000000
+                0x0000000000000800                _stack_size = 0x800
+                0x0000000000000044                restore_state = 0x44
+                0x000000000000004a                bZSPIWaitWIPClear = 0x4a
+                0x0000000000000050                u16ZSPIflashRDID = 0x50
+                0x0000000000000056                u8SelectFlashChipType = 0x56
+                0x000000000000005c                memcpy = 0x5c
+                0x0000000000000066                vBootFlashProg = 0x66
+                [0x0000000000000d16]                _minimum_heap_size = DEFINED (_minimum_heap_size)?_minimum_heap_size:0xd16
+                0x0000000000000000                _SwConfig = (DEFINED (g_bSWConf_Debug) | (DEFINED (g_bSWConf_AltDebugPort) << 0x1))
+
+.version        0x000000000007fffc        0x4
+                0x000000000007fffc        0x4 LONG 0x7030008
+
+.bir            0x0000000000080000       0x10
+                0x0000000000080000                _flash_start = ABSOLUTE (.)
+                0x0000000000080000                _flash_beg = ABSOLUTE (.)
+                0x0000000000080000        0x4 LONG 0x12345678
+                0x0000000000080004        0x4 LONG 0x11223344
+                0x0000000000080008        0x4 LONG 0x55667788
+                0x000000000008000c        0x1 BYTE 0x8
+                0x000000000008000d        0x1 BYTE 0x1
+                0x000000000008000e        0x2 SHORT 0x0
+
+.flashheader    0x0000000000080010       0x28
+                0x0000000000080010        0x4 LONG 0x0
+                0x0000000000080014        0x4 LONG 0x0
+                0x0000000000080018        0x4 LONG 0x0
+                0x000000000008001c        0x2 SHORT 0x0
+                0x000000000008001e        0x2 SHORT 0x0 ABSOLUTE (_SwConfig)
+                0x0000000000080020                _enc_start = ABSOLUTE (.)
+                0x0000000000080020        0x4 LONG 0x8bb8 ABSOLUTE (_image_len)
+                0x0000000000080010                _enc_offset = (_enc_start & 0xf)
+                [0x0000000000080030]                _enc_start = (_enc_start - _flash_beg)
+                0x0000000000080024        0x4 LONG 0x88b9c ABSOLUTE (_flash_data_start)
+                0x0000000000080028        0x2 SHORT 0x13 ((ABSOLUTE (_ram_data_start) / 0x4) & 0xffff)
+                0x000000000008002a        0x2 SHORT 0x7 ((ABSOLUTE (_ram_data_len) / 0x4) & 0xffff)
+                0x000000000008002c        0x2 SHORT 0x1a ((ABSOLUTE (_bss_start) / 0x4) & 0xffff)
+                0x000000000008002e        0x2 SHORT 0xa4e ((ABSOLUTE (_bss_len) / 0x4) & 0xffff)
+                0x0000000000080030        0x4 LONG 0x84ec4 ABSOLUTE (AppWarmStart)
+                0x0000000000080034        0x4 LONG 0x84ef9 ABSOLUTE (AppColdStart)
+                0x0000000000000044                PROVIDE (vException_BusError, restore_state)
+                0x0000000000000044                PROVIDE (vException_UnalignedAccess, restore_state)
+                0x0000000000000044                PROVIDE (vException_IllegalInstruction, restore_state)
+                0x0000000000000044                PROVIDE (vException_SysCall, restore_state)
+                0x0000000000000044                PROVIDE (vException_Trap, restore_state)
+                0x0000000000000044                PROVIDE (vException_StackOverflow, restore_state)
+                0x0000000000080038                . = ABSOLUTE (_exception_vsr_table)
+
+.vsr_table      0x0000000000080038       0x18
+                0x0000000000080038        0x4 LONG 0x44 ABSOLUTE (vException_BusError)
+                0x000000000008003c        0x4 LONG 0x44 ABSOLUTE (vException_UnalignedAccess)
+                0x0000000000080040        0x4 LONG 0x44 ABSOLUTE (vException_IllegalInstruction)
+                0x0000000000080044        0x4 LONG 0x44 ABSOLUTE (vException_SysCall)
+                0x0000000000080048        0x4 LONG 0x44 ABSOLUTE (vException_Trap)
+                0x000000000008004c        0x4 LONG 0x44 ABSOLUTE (vException_StackOverflow)
+
+.vsr_handlers   0x0000000000080050       0xaa
+ *(.vsr_handlers)
+ .vsr_handlers  0x0000000000080050       0xaa c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                0x0000000000080050                _exception_external_interrupt
+                0x00000000000800f8                _default_vsr_dummy
+
+.rodata         0x00000000000800fc      0x1fd
+ *(.rodata*)
+ .rodata        0x00000000000800fc       0xcb C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+ *fill*         0x00000000000801c7        0x1 00
+ .rodata        0x00000000000801c8       0xd4 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+                0x00000000000801c8                s_aprScanHandleEvt.10580
+                0x00000000000801f8                apvActionCalls
+                0x0000000000080280                aprLPBMacVectorRamTable
+                0x0000000000080294                psTamMacContext
+                0x0000000000080298                psTAMcontext
+ .rodata        0x000000000008029c        0x4 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o
+ .rodata        0x00000000000802a0       0x14 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+ .rodata        0x00000000000802b4       0x1c C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+                0x00000000000802b4                psTamXcvContext
+ .rodata        0x00000000000802d0       0x19 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans5.ltrans.o
+                0x00000000000802d0                gbHighPowerMode
+                0x00000000000802d1                gu8ModuleID
+ .rodata        0x00000000000802e9        0x6 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans6.ltrans.o
+                0x00000000000802e9                aeXcvPhyEvtToScanEvt.5394.10583
+ .rodata        0x00000000000802ef        0xa C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+
+.text           0x00000000000802fc     0x88a0
+ *(.text*)
+ .text          0x00000000000802fc     0x10e0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+                0x00000000000802fc                vAHI_IntHandlerAnalogPeriph
+                0x000000000008031c                vTTIBLETimerExpired
+                0x0000000000080327                mac_vLPBAdjustBeaconOffset
+                0x0000000000080384                mac_u32LPBGetBeaconTimeout
+                0x000000000008038d                eWEnDTmrExpiry.10221
+                0x0000000000080398                eWEnDEdDone.10218
+                0x00000000000803f3                eGenlDontCare.10215
+                0x00000000000803f8                eGenlIllegal.9840
+                0x00000000000803ff                u32GetTimer0
+                0x0000000000080406                vSetTimer0
+                0x0000000000080415                vAHI_DioSetOutput
+                0x0000000000080429                vAHI_DioSetDirection
+                0x000000000008043d                bAHI_APRegulatorEnabled
+                0x000000000008044a                vTAIdisableInterrupt
+                0x0000000000080463                vUpdateRegisters.19834
+                0x00000000000804aa                psRemove.part.0.19784
+                0x00000000000804d9                MAC_u8AclFindInfo
+                0x00000000000805fe                vTASretrieveSecurity
+                0x0000000000080620                MAC_bLookUpKeyDescriptor.17336
+                0x000000000008069a                u8TSCframeIncrease
+                0x00000000000806d3                vCopyToDataFromMacAddr.17246
+                0x0000000000080706                bTSCgetOutgoingInfo
+                0x000000000008080f                psTAQsearchFifo
+                0x0000000000080858                bTAQremoveFromFifo
+                0x0000000000080895                vTAMinsertEvent
+                0x00000000000808fb                vTTITimer2Expired
+                0x00000000000808ff                vTTITimer1Expired
+                0x0000000000080903                vTAM_TxRetryTimeout
+                0x0000000000080907                vTACsetTxFrameDefaults
+                0x000000000008092d                u8TACgetHeaderSize
+                0x000000000008096a                bUpdateTime.15564
+                0x00000000000809a5                u32TACpayloadToU32M
+                0x00000000000809c6                vTACu32ToPayloadM
+                0x00000000000809de                vTACbuildBeacon
+                0x0000000000080be6                bTACframeInProgress
+                0x0000000000080c10                bTACassessBeaconForPayload
+                0x0000000000080c61                bIsBbcSafeForTx
+                0x0000000000080c96                vTATwriteAclMaterialToHardware
+                0x0000000000080cbb                vTATsetBLE
+                0x0000000000080cf2                vTATgetFramePayload
+                0x0000000000080d0f                eTATreadTXstatus
+                0x0000000000080d55                vTAHsetPhyStateDirect.part.0.14705
+                0x0000000000080d71                vDoGoOff.16526
+                0x0000000000080d8b                vMEMreturn
+                0x0000000000080dfc                vTACinformOriginator
+                0x0000000000080e1e                vTTITransactionTimerExpired
+                0x0000000000080e46                pvMEMget
+                0x0000000000080e72                vTAMDEdetermineNullState
+                0x0000000000080e8c                vTAMCOupdatePendingList
+                0x0000000000080f5e                vTAMCOsetCoordinator
+                0x0000000000080f84                vPhySetChannel
+                0x0000000000080f9d                eScanHandleEvt.part.0.10251
+                0x0000000000080fc6                mac_eDcfmIndPost
+                0x0000000000080fe7                mac_psDcfmIndGetBuf
+                0x0000000000081008                vMAC_MISCpollConfirm
+                0x0000000000081038                vMLMErxEnableConfirm
+                0x000000000008106a                vMLMEcommStatus
+                0x00000000000810cd                vMLMEcommStatusFromFrame
+                0x0000000000081111                vTSCpostTransmitUpdate
+                0x0000000000081140                vMLMEsyncLoss
+                0x0000000000081173                vPMICpostFailedAssocDcfm
+                0x00000000000811ab                vPMICassocReqTO_2.8668
+                0x00000000000811c2                MAC_vPibSetPanId
+                0x00000000000811dd                vHandleTofRequest.6774
+                0x00000000000811e0                vAppApiDefSetPrbsSeed
+                0x0000000000081204                findNextSubProcess
+                0x000000000008128c                bFifoPush.4596
+                0x00000000000812c5                vAppQApiPostMlme.4582
+                0x0000000000081334                vAppQApiPostMcps.4589
+                0x00000000000813a3                pvFifoPull.4593
+                0x00000000000813ca                psAppQApiGetMlmeBuffer.4579
+                0x00000000000813d2                psAppQApiGetMcpsBuffer.4586
+ .text          0x00000000000813dc      0xba0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+                0x00000000000813dc                eWBRTTxDone.10237
+                0x00000000000813fa                vTAMCOframeTXgoingIdle
+                0x0000000000081413                vTAMCOframeTXcap
+                0x0000000000081437                eWCoRRxDone.10228
+                0x00000000000814e1                eWBcnRxDone.10240
+                0x0000000000081aca                vTAMCOframeRXcap
+                0x0000000000081adc                vTAMCOframeRXgoingIdle
+                0x0000000000081af2                vTAMCOframeRXnobeacon
+                0x0000000000081b04                vTAMDEframeRX
+                0x0000000000081b2c                vTAMDEframeRXtrackingDR
+                0x0000000000081b6f                vTAMDEframePreSyncReq
+                0x0000000000081b87                vTAMCOframeTXbeacon
+                0x0000000000081c4e                vTAMDEframeRXsyncReq
+                0x0000000000081e9d                vTAMDEint1FiredTrackingCAPgts
+                0x0000000000081f4e                eWONTTxDone.10234
+ .text          0x0000000000081f7c      0xc36 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o
+                0x0000000000081f7c                vTACintRXheader
+                0x0000000000082777                eGenRxHdrDone.10231
+                0x0000000000082787                bStartCallback.12916
+                0x00000000000827b6                vAppApiDefMcpsRequest
+                0x00000000000827e4                sendDataToMac.part.3.2794.constprop.25
+                0x0000000000082862                pvAppApiDefGetMacHandle
+                0x000000000008286b                vAppApiDefMlmeRequest
+                0x0000000000082899                startActiveScan
+                0x00000000000828db                clockHandler
+                0x0000000000082afc                genMacInit
+                0x0000000000082b5a                startAssociate
+ .text          0x0000000000082bb2      0xaf5 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+                0x0000000000082bb2                mac_vLPBStartTimer
+                0x0000000000082cc9                vACI_IntHandlerAes
+                0x0000000000082cee                vAHI_IntHandlerSpiSlave
+                0x0000000000082cf9                vAHI_IntHandlerSi
+                0x0000000000082d21                vAHI_IntHandlerTimer2
+                0x0000000000082d30                vAHI_IntHandlerSysCtrl
+                0x0000000000082d8a                vAHI_IntHandlerUart1
+                0x0000000000082d9c                vAHI_IntHandlerUart0
+                0x0000000000082dae                vAHI_IntHandlerTimer4
+                0x0000000000082dbd                vAHI_IntHandlerTimer3
+                0x0000000000082dcc                vAHI_IntHandlerTimer1
+                0x0000000000082ddb                vAHI_IntHandlerTimer0
+                0x0000000000082dea                vAHI_IntHandlerSpiMaster
+                0x0000000000082dfc                analogInterruptHandler
+                0x0000000000082ed9                vExpireHead.19789
+                0x0000000000082f09                vAHI_ApConfigure.part.0.20232.constprop.35
+                0x0000000000082f4e                vAHI_AdcEnable.constprop.30
+                0x0000000000082f88                vMicroIntEnableOnly.constprop.27
+                0x0000000000082fb4                addTask.constprop.22
+                0x0000000000083433                pvHeap_Alloc
+                0x0000000000083436                vAHI_TickTimerIntEnable
+                0x0000000000083457                vAHI_IntHandlerTickTimer
+                0x0000000000083491                vAHI_WakeTimerStop.part.3.21111
+                0x00000000000834b1                vAHI_OptimiseWaitStates
+                0x00000000000834fd                vAHI_CpuDoze
+                0x0000000000083510                XCV_vCtor.constprop.16
+                0x0000000000083675                setPin
+                0x000000000008368e                clearPin
+ .text.unlikely
+                0x00000000000836a7       0xcd C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+                0x00000000000836bc                vAHI_MemoryHold.20545
+ *fill*         0x0000000000083774        0x0 00
+ .text          0x0000000000083774      0xc20 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+                0x0000000000083774                eTAMselect
+                0x00000000000838b4                MAC_pvCtor
+                0x0000000000083ccf                u32AppApiDefInit
+                0x0000000000083d84                theTrueHandler
+                0x0000000000084299                vTAMDEint1FiredTrackingBeacon
+                0x0000000000084339                vTAMDEframeTXtrackingDR
+ .text          0x0000000000084394      0xa5b C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans5.ltrans.o
+                0x00000000000843ea                vXCV_IntHandlerPhy
+                0x000000000008449c                vScanHandleTimer.9837
+                0x00000000000844a1                vXCV_IntHandlerBbc
+                0x0000000000084544                mac_vLPBStopTimer
+                0x000000000008454f                vACI_OptimisedCcmStar
+                0x0000000000084767                u8TAM_AES_WriteAuxilliarySecurityHeaderIntoBuffer
+                0x00000000000847d9                u8Write802_15_4HeaderIntoBuffer.18535
+                0x0000000000084939                phy_ePibSet.part.1.12047
+                0x0000000000084981                vTAIsetCapTime
+                0x00000000000849a2                vTAIsetRxEnableTime
+                0x00000000000849c3                vDoGoActive.16528
+                0x00000000000849e5                vTAMRXEint2Fired
+                0x0000000000084a1b                vTAMRXEsetPhy
+                0x0000000000084ade                vTAHsetPhyState
+                0x0000000000084b0e                vTAMCOint2Fired
+                0x0000000000084b2e                vSetPHYfromMacValue.13362
+                0x0000000000084b60                vTAMDEint1FiredWaitDR
+                0x0000000000084b6d                vTACsetPHYfromMacValue
+                0x0000000000084b8e                vTAMRXEsetReceiveForPibChange
+                0x0000000000084bce                vMLMEbeaconNotify
+                0x0000000000084d2c                vMCPSframeReceived
+ *fill*         0x0000000000084def        0x1 00
+ .text          0x0000000000084df0      0x9fc C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans6.ltrans.o
+                0x0000000000084df0                vPostDcfm.10224
+                0x0000000000084ec4                AppWarmStart
+                0x0000000000084ef9                AppColdStart
+                0x0000000000084f0a                vSetNextChannel.10272
+                0x0000000000084f63                MAC_vHandleMlmeReqRsp
+                0x0000000000085714                vTAMDEint1FiredTracking
+                0x0000000000085784                vTAMDEint1FiredSyncReq
+ .text          0x00000000000857ec      0x888 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans7.ltrans.o
+                0x00000000000857ec                startRRSch
+ .text          0x0000000000086074      0xa3a C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans8.ltrans.o
+                0x0000000000086074                TSV_eStart
+                0x0000000000086158                vTAMDEstartSync
+                0x00000000000861d6                vDeterminePowerState.13486
+                0x0000000000086259                vTAMDEint2FiredTrackingDR
+                0x000000000008627e                vTAMDEint2FiredPollActive
+                0x00000000000862b2                vTAMDEreqTXnullTrackingCAP
+                0x00000000000862cb                vTAM_TxRetryTimer
+                0x00000000000862d8                eTAStransmitRequest
+                0x0000000000086673                vPMICassocReqTO_1.8661
+                0x00000000000866fb                vTAM_MCPSdataRequest
+                0x000000000008673e                bTACcheckPANconflict
+                0x00000000000867f7                TSV_eOpen
+                0x00000000000867ff                vAppApiDefRestoreMacSettings
+                0x00000000000868d8                vAppApiDefSaveMacSettings
+                0x0000000000086935                mac_vLPBSleep
+                0x00000000000869fa                pvAppApiDefGetMacAddrLocation
+                0x0000000000086a03                eAppApiDefPlmeGet
+                0x0000000000086a56                eAppApiDefPlmeSet
+ .text          0x0000000000086aae      0x972 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+                0x0000000000086aae                bTAM_AES_CCMstarPatch
+                0x0000000000086bf2                bTAM_AES_CCMstarPatch2006
+                0x0000000000086ed1                bTATsendFrame
+                0x0000000000086f24                vTrySendFromDirectCAP.12819
+                0x0000000000086f3f                vTrySendFromDirectNoBeacon.12823
+                0x0000000000086f6a                vTAMCOint1Fired
+                0x0000000000087086                vTAMCOstartBeacon
+                0x00000000000870c1                vStartStoreValues.12887
+                0x0000000000087178                vTAMCOint1FiredCAP
+                0x00000000000871eb                vTAMCOreqTXnoBeacon
+                0x00000000000871fd                vTAMCOreqTXinCAP
+                0x0000000000087223                vTrySendUnslotted.13364
+                0x000000000008723d                bSendDataRequest.13366
+                0x000000000008734f                bProcessBeaconRX.13369
+ *fill*         0x0000000000087420        0x0 00
+ .text          0x0000000000087420      0x780 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans10.ltrans.o
+                0x0000000000087420                eGenTmrExpiry.10533
+                0x0000000000087463                eWEDTEdDone.10536
+                0x0000000000087487                TSV_eStop
+                0x0000000000087545                bPMICdisassocReqSent.8657
+                0x00000000000875ff                MAC_vHandleMcpsReqRsp
+                0x000000000008768c                bMCPSframeTXcomplete.11268
+                0x00000000000876e1                bSendSyncLoss.15499
+                0x00000000000876f9                bPollReqSent.19095
+                0x0000000000087711                bTASsendCommStatusInd
+                0x0000000000087726                bAssocRespSent.8653
+                0x0000000000087739                eTACprocessFrameTXcomplete
+                0x00000000000878b5                vTAMCOframeTXnobeacon
+                0x00000000000878ca                vTAMCOframeStarting
+                0x00000000000878e3                vTAMDEframeTXDEnull
+                0x0000000000087906                vTAMDEframeTXtrackingCAPgts
+                0x0000000000087932                bPMICassocReqSent.8649
+                0x00000000000879b4                bPMICassocReqPollSent.8664
+                0x0000000000087a08                eWChCChanChgd.10248
+ .text          0x0000000000087ba0       0x25 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                0x0000000000087ba0                memcmp
+ .text          0x0000000000087bc5       0x19 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .text          0x0000000000087bde       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                0x0000000000087bde                memset
+ .text          0x0000000000087bf0      0x204 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+                0x0000000000087bf0                __udivsi3
+ .text          0x0000000000087df4       0x2f c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+                0x0000000000087df4                __fixunssfsi
+ .text          0x0000000000087e23      0x384 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+                0x0000000000087e23                __addsf3
+ *fill*         0x00000000000881a7        0x1 00
+ .text          0x00000000000881a8      0x218 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+                0x00000000000881a8                __divsf3
+ .text          0x00000000000883c0       0xb0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+                0x00000000000883c0                __gesf2
+                0x00000000000883c0                __gtsf2
+ .text          0x0000000000088470      0x24c c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+                0x0000000000088470                __mulsf3
+ .text          0x00000000000886bc      0x3a2 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+                0x00000000000886bc                __subsf3
+ .text          0x0000000000088a5e       0x53 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+                0x0000000000088a5e                __fixsfsi
+ .text          0x0000000000088ab1       0xad c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+                0x0000000000088ab1                __floatunsisf
+ .text          0x0000000000088b5e       0x27 c:/sensenuts/Lib/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+                0x0000000000088b5e                vAHI_InterruptSetPriority
+                0x0000000000088b7c                vAHI_InterruptSetActivePriorityLevel
+ .text.vMicroSyscall
+                0x0000000000088b85       0x17 c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                0x0000000000088b85                vMicroSyscall
+                0x0000000000088b9c                _flash_end = ABSOLUTE (.)
+
+.rela.dyn       0x0000000000088b9c        0x0
+ .rela.text     0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+ .rela.rodata   0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+ .rela.data     0x0000000000000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+                0x000000000400004c                . = ORIGIN (ram)
+
+.data           0x000000000400004c       0x1c load address 0x0000000000088b9c
+                0x000000000400004c                _ram_data_start = ABSOLUTE (.)
+ *(.data*)
+ .data          0x000000000400004c        0x4 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+                0x000000000400004c                u32HeapStart
+ .data.initinboot
+                0x0000000004000050        0x8 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+ .data          0x0000000004000058        0xc C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+ .data.initinboot
+                0x0000000004000064        0x1 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+                0x0000000004000064                gMAC_u8MaxBuffers
+ *(.data.*)
+                0x0000000004000068                . = ALIGN (0x4)
+ *fill*         0x0000000004000065        0x3 00
+                0x0000000004000068                _ram_data_end = ABSOLUTE (.)
+
+.bss            0x0000000004000068     0x2938 load address 0x0000000000088bb8
+                0x0000000004000068                _bss_start = ABSOLUTE (.)
+ *(.bss*)
+ .bss           0x0000000004000068        0xc C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+ .bss           0x0000000004000074       0x40 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+                0x0000000004000074                g_sLP
+                0x00000000040000b0                g_pvMac
+ .bss.initinboot
+                0x00000000040000b4      0x1c0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+                0x00000000040000b4                g_sMac
+ .bss           0x0000000004000274        0x8 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o
+                0x0000000004000274                mutexPTask
+ .bss           0x000000000400027c        0x4 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+ .bss.dontinitinboot
+                0x0000000004000280        0xc C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+ .bss.initinboot
+                0x000000000400028c        0x4 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+ .bss           0x0000000004000290     0x2498 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+                0x0000000004000290                g_sXcv
+                0x0000000004000294                prMcpsRequest.5661
+                0x0000000004000298                prMlmeRequest.5660
+                0x000000000400029c                sCritIndQueue
+                0x00000000040002ac                sTaskIndQueue
+                0x00000000040002bc                sMcpsIndQueue
+                0x00000000040002cc                sMlmeIndQueue
+                0x00000000040002dc                sCritIndBufferQueue
+                0x00000000040002ec                sTaskIndBufferQueue
+                0x00000000040002fc                sMcpsIndBufferQueue
+                0x000000000400030c                sMlmeIndBufferQueue
+                0x000000000400031c                mcpsQSize.4670
+                0x000000000400031d                mlmeQSize.4677
+                0x000000000400031e                critQSize.4680
+                0x0000000004000320                passiveTaskQueue
+                0x0000000004000410                rear
+                0x0000000004000411                readPtr
+                0x0000000004000412                curPQSize
+                0x0000000004000414                macData
+                0x0000000004000588                prTickTimeAppCallback
+                0x000000000400058c                timeCorrection.4813
+                0x0000000004000590                TIME_CORRECTION
+                0x0000000004000598                timeQ
+                0x00000000040005a0                pvMac
+ .bss.initinboot
+                0x0000000004002728        0x8 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+                0x0000000004002728                g_u32MacAddrLocation
+                0x000000000400272c                prvUserTxStartedCallback
+ .bss           0x0000000004002730       0x1c C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans5.ltrans.o
+                0x0000000004002730                bTxEventQueued.16394
+                0x0000000004002731                u8TxEventStatus.16395
+                0x0000000004002734                sAppHousekeeping
+ .bss           0x000000000400274c       0x20 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans6.ltrans.o
+                0x000000000400274c                currentTime
+                0x0000000004002754                processList
+                0x0000000004002755                taskQMutex
+                0x0000000004002756                taskQSize.4681
+                0x0000000004002757                taskUpdateMutex
+                0x0000000004002758                taskUpdateAdd
+                0x0000000004002759                taskQMutexClock
+                0x000000000400275c                sAssocSecurity.9278
+                0x0000000004002768                g_bJenieBackwardsCompatibilityMode
+ .bss           0x000000000400276c      0x1c0 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans7.ltrans.o
+                0x000000000400276c                critQMutex
+                0x0000000004002770                tempCritBuffer
+                0x0000000004002774                critUpdateMutex
+                0x0000000004002775                critUpdateAdd
+                0x0000000004002778                psPib
+                0x000000000400277c                mlmeMutexCount
+                0x0000000004002780                mlmeMutex
+                0x0000000004002784                tempMlmeBuffer
+                0x0000000004002860                mlmeUpdateMutex
+                0x0000000004002861                mlmeUpdateAdd
+                0x0000000004002862                mlmeQMutex
+                0x0000000004002863                mcpsQMutex
+                0x0000000004002864                tempMcpsBuffer
+                0x000000000400290c                mcpsUpdateMutex
+                0x000000000400290d                mcpsUpdateAdd
+                0x000000000400290e                subProcessList
+                0x000000000400290f                currentSubProcess
+                0x0000000004002910                nextSubProcess
+                0x0000000004002914                tempTaskBuffer
+                0x0000000004002920                prApAppCallback.20294
+                0x0000000004002924                bContinuousModeFlag.20292
+                0x0000000004002925                currentProcess
+ .bss           0x000000000400292c       0x1c C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans8.ltrans.o
+ .bss.initinboot
+                0x0000000004002948        0x1 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans8.ltrans.o
+ .bss.dontinitinboot
+                0x0000000004002949        0x1 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+                0x0000000004002949                u8SecurityMode.18562
+ *fill*         0x000000000400294a        0x2 00
+ .bss           0x000000000400294c       0x14 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans10.ltrans.o
+                0x000000000400294c                s_sTimerList
+                0x000000000400295c                u8AssocResponsesInProgress.9277
+ .bss.dontinitinboot
+                0x0000000004002960       0x40 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                0x0000000004002960                isr_handlers
+ *(.bss.*)
+ *(.scommon*)
+ *(.scommon.*)
+ *(COMMON)
+                0x00000000040029a0                . = ALIGN (0x4)
+                0x00000000040029a0                _bss_end = ABSOLUTE (.)
+
+.heap           0x00000000040029a0      0xd16 load address 0x000000000008b4f0
+                0x00000000040029a0                _heap_start = ABSOLUTE (.)
+                0x00000000040036b6                . = (. + _minimum_heap_size)
+ *fill*         0x00000000040029a0      0xd16 00
+
+.stack          0x0000000004007800      0x800 load address 0x0000000000090350
+                0x0000000004007800                _heap_end = ABSOLUTE (.)
+                0x0000000004007800                _stack = _heap_end
+                0x0000000004007800                _stack_low_water_mark = ABSOLUTE (.)
+                0x0000000004008000                . = (. + _stack_size)
+ *fill*         0x0000000004007800      0x800 00
+                0x0000000004008000                end = ABSOLUTE (.)
+
+.test           0x0000000000088bb8        0x1
+                0x0000000000088bb8        0x1 BYTE 0xff
+                0x0000000000088b9c                _flash_data_start = LOADADDR (.data)
+                0x000000000000001c                _ram_data_len = (((_ram_data_end - _ram_data_start) + 0x3) & 0xfffffffffffffffc)
+                0x0000000000002938                _bss_len = (((_bss_end - _bss_start) + 0x3) & 0xfffffffffffffffc)
+                0x0000000000008bb8                _image_len = ((((_flash_end - _flash_start) + _ram_data_len) + 0x3) & 0xfffffffffffffffc)
+                0x0000000004008000                _ram_top = (ABSOLUTE (ORIGIN (ram)) + 0x7fb4)
+                0x0000000001001580                _app_ram_start = 0x1001580
+                0x000000000400004c                PROVIDE (_heap_location, u32HeapStart)
+                0x00000000000867f7                TSV_eOpenVector = TSV_eOpen
+                0x0000000000086074                TSV_eStartVector = TSV_eStart
+                0x0000000000087487                TSV_eStopVector = TSV_eStop
+                0x0000000000082862                pvAppApiGetMacHandle = pvAppApiDefGetMacHandle
+                0x0000000000083ccf                u32AppApiInit = u32AppApiDefInit
+                0x000000000008286b                vAppApiMlmeRequest = vAppApiDefMlmeRequest
+                0x00000000000827b6                vAppApiMcpsRequest = vAppApiDefMcpsRequest
+                0x0000000000086a56                eAppApiPlmeSet = eAppApiDefPlmeSet
+                0x0000000000086a03                eAppApiPlmeGet = eAppApiDefPlmeGet
+                0x00000000000869fa                pvAppApiGetMacAddrLocation = pvAppApiDefGetMacAddrLocation
+                0x00000000000868d8                vAppApiSaveMacSettings = vAppApiDefSaveMacSettings
+                0x00000000000867ff                vAppApiRestoreMacSettings = vAppApiDefRestoreMacSettings
+OUTPUT(c:/sensenuts/AppCode/1_smoke_hopping/bcast_Coord/output/bcast_Coord.elf elf32-ba)
+
+.comment        0x0000000000000000       0x22
+ .comment       0x0000000000000000       0x11 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans0.ltrans.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\ASUS\AppData\Local\Temp\ccB2sNWD.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .comment       0x0000000000000000       0x12 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .comment       0x0000000000000011       0x11 c:/sensenuts/Lib/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                                         0x12 (size before relaxing)
+
+.debug_info     0x0000000000000000     0x1584
+ .debug_info    0x0000000000000000       0xf3 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000000f3      0x106 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000001f9       0xd7 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_info    0x00000000000002d0       0xe2 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_info    0x00000000000003b2       0xd3 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x0000000000000485      0x2b5 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_info    0x000000000000073a      0x2b1 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_info    0x00000000000009eb      0x1ec c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_info    0x0000000000000bd7      0x302 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_info    0x0000000000000ed9      0x2b5 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .debug_info    0x000000000000118e      0x19d c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .debug_info    0x000000000000132b      0x1af c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .debug_info    0x00000000000014da       0xaa c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+
+.debug_abbrev   0x0000000000000000      0xa72
+ .debug_abbrev  0x0000000000000000       0x8e c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x000000000000008e       0xa4 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000132       0x8e c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000001c0       0x14 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_abbrev  0x00000000000001d4       0x60 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000000000000234      0x133 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_abbrev  0x0000000000000367      0x126 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_abbrev  0x000000000000048d      0x12a c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_abbrev  0x00000000000005b7      0x12d c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_abbrev  0x00000000000006e4      0x133 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .debug_abbrev  0x0000000000000817      0x12c c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x0000000000000943      0x11b c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x0000000000000a5e       0x14 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+
+.debug_loc      0x0000000000000000     0x1f9f
+ .debug_loc     0x0000000000000000       0x73 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000073       0x39 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000000000000ac       0x3f c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_loc     0x00000000000000eb       0x43 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x000000000000012e      0x8d5 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_loc     0x0000000000000a03      0x498 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_loc     0x0000000000000e9b      0x126 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_loc     0x0000000000000fc1      0x4a6 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_loc     0x0000000000001467      0x957 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .debug_loc     0x0000000000001dbe       0x85 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .debug_loc     0x0000000000001e43      0x15c c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+
+.debug_aranges  0x0000000000000000      0x1a0
+ .debug_aranges
+                0x0000000000000000       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000020       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000040       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000060       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_aranges
+                0x0000000000000080       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_aranges
+                0x0000000000000100       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x0000000000000120       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .debug_aranges
+                0x0000000000000140       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .debug_aranges
+                0x0000000000000180       0x20 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+
+.debug_line     0x0000000000000000     0x1aa8
+ .debug_line    0x0000000000000000      0x1b0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_line    0x00000000000001b0      0x1a4 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000000354      0x19a c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_line    0x00000000000004ee      0x47b c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_line    0x0000000000000969       0x99 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x0000000000000a02      0x448 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_line    0x0000000000000e4a      0x1b4 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_line    0x0000000000000ffe      0x12f c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_line    0x000000000000112d      0x199 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_line    0x00000000000012c6      0x475 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .debug_line    0x000000000000173b       0xc8 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .debug_line    0x0000000000001803      0x10e c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+ .debug_line    0x0000000000001911      0x197 c:/sensenuts/Lib/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+
+.debug_str      0x0000000000000000      0x584
+ .debug_str     0x0000000000000000      0x147 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                                        0x180 (size before relaxing)
+ .debug_str     0x0000000000000147       0x5d c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+                                        0x194 (size before relaxing)
+ .debug_str     0x00000000000001a4       0x49 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                                        0x180 (size before relaxing)
+ .debug_str     0x00000000000001ed       0xf0 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+                                        0x194 (size before relaxing)
+ .debug_str     0x00000000000002dd       0xa1 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+                                        0x1bf (size before relaxing)
+ .debug_str     0x000000000000037e       0x4e c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+                                        0x18c (size before relaxing)
+ .debug_str     0x00000000000003cc       0x57 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+                                        0x195 (size before relaxing)
+ .debug_str     0x0000000000000423       0x7d c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x00000000000004a0       0x41 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+                                        0x1bf (size before relaxing)
+ .debug_str     0x00000000000004e1       0x4b c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+                                        0x198 (size before relaxing)
+ .debug_str     0x000000000000052c       0x58 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+                                        0x19e (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x1ac
+ .debug_frame   0x0000000000000000       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000020       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000040       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000060       0x28 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x0000000000000088       0x2c c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_frame   0x00000000000000b4       0x30 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_frame   0x00000000000000e4       0x2c c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_frame   0x0000000000000110       0x30 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_frame   0x0000000000000140       0x2c c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
+ .debug_frame   0x000000000000016c       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
+ .debug_frame   0x000000000000018c       0x20 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
+
+.debug_ranges   0x0000000000000000      0x180
+ .debug_ranges  0x0000000000000000       0x78 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
+ .debug_ranges  0x0000000000000078       0x18 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
+ .debug_ranges  0x0000000000000090       0x38 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
+ .debug_ranges  0x00000000000000c8       0x40 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
+ .debug_ranges  0x0000000000000108       0x78 c:/sensenuts/tools/ba-elf-ba2-r34135/bin/../lib/gcc/ba-elf/4.7.3/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)

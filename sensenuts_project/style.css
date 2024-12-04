@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  align-items: center;
+
+}
+
+th {
+  background-color: #eb48dd;
+}
+
+th,
+td {
+  background-color: #3edddd;
+  text-align: center;
+  padding: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  -ms-text-size-adjust: auto;
+}
+
+h1 {
+  text-align: center;
+  background-color: #0dc29b;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.atb {
+  margin-top: 100px;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  padding-top: 15px;
+  background-color: #0695b9;
+  border-radius: 10px;
+  border: 100px white;
+  border-collapse: collapse;
+  align-items: center;
+}
+
+#iframe {
+  margin: 10px;
+  padding: 10px;
+  align-content: flex-end;
+}
+
+h3 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.sys {
+
+  font-size: 50px;
+}
+
+.sys1 {
+
+  font-size: 30px;
+}
+
+.table1 {
+
+  margin-top: 50px;
+
+
+}
+
+.curve_chart {
+  padding: 50px;
+  margin-bottom: 20px;  
+  width: 400;
+  height: 400;
+}
+.tabledata{
+  font-size: 50px;
+
+}
